@@ -25,9 +25,9 @@ modules: [
 ]
 
 //to open cookie modal anywhere:
-$cookies.modal = true
+$cookiesControl.modal = true
 //or
-this.$cookies.modal = true
+this.$cookiesControl.modal = true
 ```
 ```html
 <!--template-->
@@ -45,7 +45,7 @@ this.$cookies.modal = true
 <CookieControl>
   <template v-slot:bar>
     <h3>Bar title</h3>
-    <p>Bar description (you can use $cookies.text.barDescription)</p>
+    <p>Bar description (you can use $cookiesControl.text.barDescription)</p>
     <n-link>Go somewhere</n-link>
   </template>
 </CookieControl>
